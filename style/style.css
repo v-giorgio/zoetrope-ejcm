@@ -1,0 +1,420 @@
+/* CORES ZOETROPE: 
+    8138AD roxo escuro
+    F19EFF roxo claro
+    000000 preto
+    FFFFFF branco
+*/
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+/* LOGO */
+
+header {
+  border-bottom: 5px groove rgba(255, 0, 255, 0.3);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #8138ad;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-icon:hover {
+  transition-duration: 0.3s;
+  width: 250px;
+}
+.logo-icon:not(:hover) {
+  transition-duration: 0.3s;
+  width: 240px;
+}
+
+/* TITULO|SUBTITULO */
+
+.page-brand {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.page-brand h1 {
+  letter-spacing: 4px;
+  font-size: 52px;
+  color: #8138ad;
+}
+
+.page-brand p {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/* SEÇÃO PRINCIPAL */
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.login-section {
+  background-color: #8138ad;
+  border-radius: 30px;
+  box-shadow: 0 0 1rem #000;
+  padding: 30px 25px;
+  margin-left: 100px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.login-title {
+  font-size: 26px;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.login li {
+  padding: 10px;
+}
+
+.login li input {
+  background-color: #8138ad;
+  margin-left: 2px;
+  width: 230px;
+  padding: 8px 20px;
+  border: 0;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.login li input::placeholder {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: lightgrey;
+  letter-spacing: 3px;
+}
+
+.login li input:hover,
+.login li input:focus {
+  transition-duration: 0.4s;
+  color: #000;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 0 1rem #f19eff;
+}
+
+.login li input:not(:hover) {
+  transition-duration: 0.4s;
+}
+
+.login button {
+  margin-top: 30px;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 0.6rem #000;
+  background-color: #8138ad;
+  padding: 10px 50px;
+  align-self: center;
+  letter-spacing: 3px;
+}
+
+.login button:hover {
+  transition-duration: 0.3s;
+  color: #8138ad;
+  box-shadow: 0 0 0.6rem #ffffff;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.login button:not(:hover) {
+  transition-duration: 0.3s;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 8px;
+}
+
+.options li {
+  padding: 8px 0;
+}
+
+.options li a {
+  text-decoration: none;
+  color: #f19eff;
+}
+
+.options li a:hover {
+  color: #ffffff;
+}
+
+/* DESCRIÇÃO */
+
+.description-section {
+  margin: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8138ad;
+  border-radius: 40px;
+  box-shadow: 0 0 2rem #000;
+}
+
+.app-screen-picture img {
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 0.7rem #000;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
+}
+
+.description-title {
+  letter-spacing: 3px;
+  font-size: 48px;
+}
+
+.description-text {
+  margin-top: 120px;
+  font-size: 24px;
+}
+
+/* FUNCIONALIDADES */
+
+.features-section {
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #8138ad;
+}
+
+.features-description-title {
+  letter-spacing: 3px;
+  font-size: 48px;
+}
+
+.features-description-text {
+  margin-top: 120px;
+  font-size: 24px;
+}
+
+/* OPINIÕES DE USUÁRIOS */
+
+.rating-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #8138ad;
+  font-size: 36px;
+  margin-bottom: 80px;
+}
+
+.rating-list {
+  list-style-type: none;
+}
+
+.rating-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-item img {
+  margin: 0 0 30px 0;
+  border-radius: 30px;
+}
+
+.user-info {
+  background-color: #8138ad;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 65%;
+  padding: 0 40px;
+  font-size: 18px;
+  color: white;
+  margin: 0 0 30px 30px;
+  border-radius: 30px;
+  letter-spacing: 2px;
+}
+
+.user-info h6 {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.user-info p {
+  font-style: italic;
+}
+
+/* RODAPÉ */
+
+footer {
+  background-color: #8138ad;
+  border-top: 5px groove rgba(255, 0, 255, 0.3);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer-download {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  font-size: 14px;
+}
+
+.footer-icon a img {
+  padding: 8px 20px;
+}
+
+.footer-icon a img:hover {
+  transition-duration: 0.3s;
+  width: 30px;
+}
+
+.footer-icon a img:not(:hover) {
+  transition-duration: 0.3s;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+/* MEDIA-QUERIES */
+
+@media (max-width: 1200px) {
+  .page-brand {
+    text-align: center;
+  }
+
+  .main-section-img {
+    display: none;
+  }
+
+  .login-section {
+    margin: 50px 20px;
+  }
+
+  .app-screen-picture {
+    display: none;
+  }
+
+  .description {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .description-section {
+    margin: 0 20px;
+  }
+
+  .description-title {
+    font-size: 36px;
+  }
+  .description-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 888px) {
+  .description-section {
+    margin: 100px 20px;
+  }
+
+  .description-title {
+    font-size: 28px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
+
+  .rating-title {
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  .rating-item img {
+    display: none;
+  }
+
+  .footer-download {
+    flex-direction: column;
+  }
+
+  .footer-icon {
+    margin: 10px 0 0 0;
+  }
+}
+
+@media (max-width: 540px) {
+  body {
+    width: 500px;
+  }
+
+  .main-section,
+  .description-section {
+    margin: 100px 50px;
+  }
+}
