@@ -4,6 +4,10 @@
     000000 preto
     FFFFFF branco
 */
+/*
+:root{
+  --cor-principal: #ffff
+} */
 
 body {
   width: 100%;
